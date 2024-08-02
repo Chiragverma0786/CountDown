@@ -1,0 +1,12 @@
+Store all id's in const; 
+Initlize Deadline;
+Start a function;
+store current time in a const;
+store Difference in a const diff = Deadline - current time;
+get days = difference / (1000 * 60 * 60 * 24);
+get hours = difference % (1000 * 60 * 60 * 24) / (1000 * 60 * 60);
+get minutes = difference % (1000 * 60 * 60) / (1000 * 60);
+get seconds = ((difference % (1000 * 60)) / 1000);
+store all days, hours in a const;
+create a function to put 0 when num>10;
+set interval to update timmer;

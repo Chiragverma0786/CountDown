@@ -1,0 +1,58 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    background-color: black;
+  }
+  
+  .countdown {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .countdown-item {
+    font-size: 4rem;
+    margin: 0 10px;
+    border: 2px solid black;
+    padding-left: 17px;
+    padding-right: 17px;
+    padding-bottom: 30px;
+    background-color: orangered;
+    color: #f0f0f0;
+  }
+  
+  #days::after{
+    content: "DAYS";
+    position: absolute;
+    display: flex;
+    /* transform: translateX(-50%); */
+    font-size: 24px;
+  }
+
+  #hours::after{
+    content: "HOURS";
+    position: absolute;
+    display: flex;
+    transform: translateX(-10%);
+    font-size: 24px;
+  }
+
+  #minutes::after{
+    content: "MINS";
+    position: absolute;
+    display: flex;
+    /* transform: translateX(-50%); */
+    font-size: 24px;
+  }
+
+  #seconds::after{
+    content: "SECS";
+    position: absolute;
+    display: flex;
+    /* transform: translateX(-50%); */
+    font-size: 24px;
+  }
